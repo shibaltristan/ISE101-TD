@@ -11,7 +11,7 @@ import { BottomTabInset, MaxContentWidth, Spacing } from '@/constants/theme';
 
 function getDevMenuHint() {
   if (Platform.OS === 'web') {
-    return <ThemedText type="small">use browser devtools</ThemedText>;
+    return <ThemedText type="small">Tristan Duque</ThemedText>;
   }
   if (Device.isDevice) {
     return (
@@ -35,12 +35,12 @@ export default function HomeScreen() {
         <ThemedView style={styles.heroSection}>
           <AnimatedIcon />
           <ThemedText type="title" style={styles.title}>
-            Welcome to&nbsp;Expo
+            Welcome to&nbsp;SRC!!
           </ThemedText>
         </ThemedView>
 
         <ThemedText type="code" style={styles.code}>
-          get started
+          TRISTAN
         </ThemedText>
 
         <ThemedView type="backgroundElement" style={styles.stepContainer}>
